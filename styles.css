@@ -1,0 +1,59 @@
+/* Reset default margin, padding, and border */
+body, header, h1, h2, p, section {
+    margin: 0;
+    padding: 0;
+
+    border: 0;
+}
+
+/* Set background color for the whole page */
+body {
+    background-color: #f4c65d;
+    font-family: 'Times New Roman', Times;
+}
+
+/* Style the header */
+header {
+    background-color: #de7bbe;
+    color: #5f0e0e;
+    text-align: left;
+    padding: 50px;
+    font-size: 100px;}
+
+/* Style the section */
+section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 35px;
+    background-color: #b0adad;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the headings */
+h1, h2 {
+    color: #1392c1;
+}
+
+/* Style the paragraphs */
+p {
+    font-size: 16px;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+
+/* Style the list */
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+img {
+    max-width: 600px;
+}
+figcaption{
+    font-size: 10px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    max-width: 600px;
+
+}
